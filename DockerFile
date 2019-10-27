@@ -1,5 +1,5 @@
 FROM openjdk:8
-ADD target/Docker-Spring.jar Docker-Spring.jar
+ADD target/DockerHelloGitDeploy-0.0.1-SNAPSHOT.jar DockerHelloGitDeploy-0.0.1-SNAPSHOT.jar
 EXPOSE 8085
-ENTRYPOINT ["java","-jar","Docker-Spring.jar"]
+ENTRYPOINT ["java","-jar","DockerHelloGitDeploy-0.0.1-SNAPSHOT.jar"]
  
